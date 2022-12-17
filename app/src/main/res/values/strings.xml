@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Zakat On Gold Pocket Calculator</string>
+    <string name="welcomeMessage1">Welcome to</string>
+    <string name="url">Visit <a href="https://github.com/nursafuraa/ZakatOnGoldPocketCalculator.git">student's  github page</a></string>
+    <string name="welcomeMessage2">Working out your Zakat is not always easy. Use our calculator to make sure you get it right.We are happy to help you! Just click the button below.</string>
+    <string name="copyright">Copyright &#169; 2022 Nur Safura Fatihah</string>
+    <string name="apps_description">One of five pillars in Islam is zakat, but is not it difficult to calculate zakat on gold? Here is a good news for you, though! That would not be a concern for you longer. Because you may calculate whenever and wherever you choose with the Zakat On Gold Pocket Calculator. If you have information on all of your golds, you can now quickly calculate how much you must pay with the Zakat On Gold Pocket Calculator mobile application. People can use the Zakat On Gold Pocket Calculator to determine their zakat in Malaysian Ringgit (RM). The main goal of Zakat On Gold Pocket Calculator is to make it possible for Muslims to learn how much Zakat Gold they must pay.
+</string>
+    <string name="studentInfo">Nur Safura Fatihah binti Mohd Salleh || RCS2405B || 2020897996</string>
+    <string name="title_calculator">Calculator</string>
+    <string name="tvLabelWeight">Please enter the weight of the gold:</string>
+    <string name="tvNotice">Number only (0-9):</string>
+    <string name="hint_weight">Weight of the gold in gram</string>
+    <string name="tvLabelValue">Please enter the current value of the gold:</string>
+    <string name="hint_goldValue">Current gold value per gram</string>
+</resources>

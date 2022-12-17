@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tvOutput"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dip"
+    tools:context=".MainActivity2"
+    android:background="@color/sheer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dip"
+        android:paddingRight="16dip">
+
+        <ImageButton
+            android:id="@+id/btnQues"
+            android:layout_width="279dp"
+            android:layout_height="25dp"
+            android:layout_gravity="left"
+            android:background="#00FFFFFF"
+            android:backgroundTint="#FFEB3B"
+            android:backgroundTintMode="src_in"
+            android:foregroundGravity="left"
+            android:scaleType="fitEnd"
+            app:srcCompat="@android:drawable/ic_menu_info_details" />
+
+        <EditText
+            android:id="@+id/etCalculator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:padding="16dip"
+            android:text="@string/title_calculator"
+            android:textAlignment="center"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvLabelWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/tvLabelWeight"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/etWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_weight"
+            android:inputType="numberDecimal"
+            android:padding="16dip"
+            android:textColorHint="#1B5E20"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvLabelValue5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dip"
+            android:paddingStart="6dip"
+            android:text="@string/tvNotice"
+            android:textColor="@color/billow"
+            android:textSize="8sp" />
+
+        <TextView
+            android:id="@+id/tvLabelValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/tvLabelValue"
+            android:textSize="14sp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/etGoldValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_goldValue"
+            android:inputType="numberDecimal"
+            android:padding="16dp"
+            android:paddingStart="16dp"
+            android:paddingTop="6dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="6dp"
+            android:textColorHint="#1B5E20"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvLabelValue3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dip"
+            android:paddingStart="6dip"
+            android:text="@string/tvNotice"
+            android:textColor="@color/billow"
+            android:textSize="8sp" />
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnKeep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Keep"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnWear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wear"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/tvOutput2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="18sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/tvOutput3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="18sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/tvOutput4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="18sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/tvOutput1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textAlignment="viewStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="18sp"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+</RelativeLayout>
